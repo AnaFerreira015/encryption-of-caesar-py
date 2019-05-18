@@ -10,7 +10,6 @@ decrypt = ''
 for i in range(size):
     cript += chr(ord(message[i]) + key)
 for i in range(size):
-    ' TODO: Corrigir decrypt'
     decrypt += chr(ord(cript[i]) - key)
 
 print()
